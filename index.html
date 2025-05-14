@@ -61,16 +61,12 @@
       const input = document.getElementById("password").value;
       const correct = "terranceganteng"; // 🔒 Ganti password di sini
 
-      if (input === correct) {
-        document.body.innerHTML = `
-          <div style="text-align:center; padding:2rem;">
-            <h1>Selamat Datang!</h1>
-            <p>Ini adalah halaman rahasia kamu 🎬</p>
-          </div>
-        `;
-      } else {
-        alert("Password salah!");
-      }
+if (input === correct) {
+  window.location.href = "https://sites.google.com/view/missing-mathgame";
+} else {
+  alert("Password salah!");
+}
+
     }
   </script>
 
